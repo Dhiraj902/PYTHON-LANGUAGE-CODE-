@@ -1,4 +1,4 @@
-#wap to check the number of prime or not prime. withaut using function ..
+#wap to check the number of prime or not prime. without using function ..
 num = int(input("Enter the  number:"))
 for i in range(2,num+1):
     if(num%i==0):
