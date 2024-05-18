@@ -83,3 +83,16 @@ for i in range(2,x*y-1):
           break
 
 
+
+4.#wap to find the hcf(gcd) of value:
+x = int(input("Enter the first value:"))
+
+y = int(input("Enter the first value:"))
+
+for i  in range(x if x<y  else y,0,-1):
+    
+   if(x%i==0 and y%i==0):
+     
+      print(f"The HCF(gcd) of {x} and {y} :",i)
+    
+   break
