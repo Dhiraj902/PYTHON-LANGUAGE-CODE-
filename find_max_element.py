@@ -20,3 +20,7 @@ def sort_element(arr):
     for i in arr:
         if i>=A:
             A = i
+                     
+    return A
+arr =  [5,6,1,7,2,9,4]
+print(sort_element(arr))
